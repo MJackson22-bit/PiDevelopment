@@ -128,7 +128,7 @@ public class PiDevelopment {
             showArticles();
             System.out.print("Elija el artículo usando el ID de este: ");
             order.setCodeArticle(Leer.datoInt());
-            System.out.println(order.getCodeClient() + " - " + order.getCodeArticle());
+            
             System.out.print("Cantidad: ");
             order.setAmountArticle(Leer.datoInt());
             result = conectar.getArticle(order.getCodeArticle());
